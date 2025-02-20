@@ -4,14 +4,14 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1740021324|23503403108';
+const CACHE_VERSION = '1740022531|24710616282';
 /** @type {string} */
 const CACHE_PREFIX = 'BarioTemplate-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
 /** @type {string} */
 const OFFLINE_URL = 'index2.offline.html';
 /** @type {boolean} */
-const ENSURE_CROSSORIGIN_ISOLATION_HEADERS = true;
+const ENSURE_CROSSORIGIN_ISOLATION_HEADERS = false;
 // Files that will be cached on load.
 /** @type {string[]} */
 const CACHED_FILES = ["index2.html","index2.js","index2.offline.html","index2.icon.png","index2.apple-touch-icon.png","index2.worker.js","index2.audio.worklet.js"];
